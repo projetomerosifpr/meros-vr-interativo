@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Materials/NetSmall.mat.meta
+guid: 2df7805258dafbf4d87935ab495295fa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+========
+guid: e90a32890c29e0c44a8bada8406550fd
+PrefabImporter:
+  externalObjects: {}
+>>>>>>>> Stashed changes:Assets/Prefabs/Water_Backdrop.prefab.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
