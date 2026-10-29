@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: a39594ee4e3846644a256089cf580952
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 139f9bfaeec729d4cb3af9b08e337d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: ab88207a525852c40899c66610efa4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: costas
+    second: {fileID: 2100000, guid: 93890f7fc25305a4597aa359320cd6ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frente
+    second: {fileID: 2100000, guid: 9170af78b8f9ae246a61ec5843a8fd6e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Siriguejo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Siri
+      parentName: Siriguejo(Clone)
+      position: {x: 0.09188172, y: -0.034208693, z: -0.25642148}
+      rotation: {x: 0.00023078329, y: 0, z: -0, w: 1}
+      scale: {x: 90.07624, y: 22.79613, z: 56.255695}
+    - name: Corpo
+      parentName: Siriguejo(Clone)
+      position: {x: 0.69454044, y: -0.019342117, z: 0.241325}
+      rotation: {x: 0.00023078326, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Bone
+      parentName: Corpo
+      position: {x: -0.0002809763, y: -4.2351646e-24, z: 2.6069005e-24}
+      rotation: {x: 0.2179835, y: 0.1557665, z: -0.037632998, w: 0.96270645}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: -1.1481461e-10, y: 0.006163383, z: 2.6727046e-11}
+      rotation: {x: -0.11897243, y: -0.09030228, z: 0.2404012, w: 0.95911336}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bone.002
+      parentName: Bone.001
+      position: {x: 2.7939677e-11, y: 0.00542579, z: -2.7939677e-11}
+      rotation: {x: 0.0056119, y: 0.0084205335, z: -0.068325005, w: 0.9976118}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Bone.002_end
+      parentName: Bone.002
+      position: {x: -0, y: 0.004395072, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.003
+      parentName: Bone.001
+      position: {x: 2.7939677e-11, y: 0.00542579, z: -2.7939677e-11}
+      rotation: {x: -0.010786734, y: -0.011500134, z: 0.42651245, w: 0.90434426}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Bone.003_end
+      parentName: Bone.003
+      position: {x: -0, y: 0.0033450532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.004
+      parentName: Corpo
+      position: {x: -0.012086832, y: -0.00024850093, z: 0.000009115338}
+      rotation: {x: 0.9570731, y: -0.05931393, z: 0.26658717, w: 0.09707823}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone.005
+      parentName: Bone.004
+      position: {x: 3.72529e-10, y: 0.0048643514, z: -7.4893335e-11}
+      rotation: {x: 0.12803937, y: -0.08548192, z: -0.12539916, w: 0.98008865}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone.006
+      parentName: Bone.005
+      position: {x: 0.0000000011734664, y: 0.006354748, z: 1.0519016e-11}
+      rotation: {x: -0.6134731, y: -0.25742993, z: -0.16731904, w: 0.7275884}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+    - name: Bone.006_end
+      parentName: Bone.006
+      position: {x: -0, y: 0.0043384153, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.007
+      parentName: Bone.005
+      position: {x: 0.0000000011734664, y: 0.006354748, z: 1.0519016e-11}
+      rotation: {x: -0.10838454, y: 0.01889453, z: -0.17069669, w: 0.97916216}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: Bone.007_end
+      parentName: Bone.007
+      position: {x: -0, y: 0.003516389, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.008
+      parentName: Corpo
+      position: {x: -0.00071641506, y: -0.00065596576, z: -0.010792917}
+      rotation: {x: -0.3158738, y: -0.628177, z: 0.6379058, w: -0.31415543}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.9999998}
+    - name: Bone.010
+      parentName: Bone.008
+      position: {x: 4.8807125e-10, y: 0.002039784, z: -8.731149e-12}
+      rotation: {x: 0.5760702, y: -0.2593582, z: -0.28507987, w: 0.72083694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.010_end
+      parentName: Bone.010
+      position: {x: -0, y: 0.005036121, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.009
+      parentName: Corpo
+      position: {x: -0.011649648, y: -0.00065599196, z: -0.010697715}
+      rotation: {x: -0.22303587, y: 0.67127, z: -0.6707675, w: -0.22298554}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone.011
+      parentName: Bone.009
+      position: {x: -4.0690792e-10, y: 0.002380096, z: -4.9039953e-11}
+      rotation: {x: 0.0141276, y: -0.03144098, z: 0.3357773, w: 0.9413105}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Bone.011_end
+      parentName: Bone.011
+      position: {x: -0, y: 0.004502373, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
